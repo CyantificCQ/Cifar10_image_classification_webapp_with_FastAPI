@@ -1,0 +1,9 @@
+version: "1"
+services:
+  core_api:
+    build: .
+    container_name: "api-container"
+    ports:
+      - "8000:5000"
+    volumes:
+      - ./api/:/api
