@@ -3,7 +3,7 @@ from pydantic import BaseModel, validator
 import tensorflow as tf 
 import shutil
 import os
-from api.image_model import make_predictions
+from image_model import make_predictions
 
 app = FastAPI() 
 

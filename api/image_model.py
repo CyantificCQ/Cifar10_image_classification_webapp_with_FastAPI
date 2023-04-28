@@ -5,7 +5,7 @@ import glob
 
 
 
-model = tf.keras.models.load_model("./api/model/cifar10_model.hdf5")
+model = tf.keras.models.load_model("./model/cifar10_model.hdf5")
 
 
 
